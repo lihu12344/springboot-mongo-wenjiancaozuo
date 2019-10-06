@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org" xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="UTF-8">
+    <title>wsy</title>
+</head>
+<body>
+<div align="center">
+    <form th:action="@{/upload}" enctype="multipart/form-data" method="post">
+        <input type="file" name="file"><br>
+        <button>提交</button><br>
+    </form>
+</div>
+</body>
+</html>
